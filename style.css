@@ -113,7 +113,7 @@
     justify-content: space-around;
     padding: 20px;
     background-image: url("/images/background.png"),
-    linear-gradient(45deg, black,rgb(50, 49, 49) );
+    linear-gradient(45deg, rgb(8, 8, 8) , rgb(50, 49, 49));
     background-size: cover;
     background-repeat: no-repeat;
  }
@@ -140,5 +140,10 @@
  .footer-logo{
     width: 130px;
     align-items: center;
+ }
+ .reserved{
+   text-align: center;
+   background-color: rgb(50, 49, 49);
+   color: white;
  }
  
