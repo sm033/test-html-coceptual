@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(55, 53, 53);
     padding: 20px;
     color: white;
     list-style: none;
@@ -35,7 +35,7 @@
     justify-content: space-around;
     height: 100vh; 
     align-items: center;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
     color: white; 
     background-image: url("./images/background.png"),
     linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
@@ -117,3 +117,28 @@
     background-size: cover;
     background-repeat: no-repeat;
  }
+ .item-footer{
+    font-size: 2px;
+    justify-content: space-around;
+ }
+ .links{
+    padding: 15px;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    
+   }
+ .links:hover{
+    color: rgb(159, 157, 235);
+ }
+ .foot-opt{
+    margin-top: 5px;
+    margin-bottom: 8px;
+ } 
+ 
+ .footer-logo{
+    width: 130px;
+    align-items: center;
+ }
+ 
