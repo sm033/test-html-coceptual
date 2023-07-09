@@ -1,7 +1,29 @@
 *{
     margin: 0px;
-    padding: 5px;
-}
+    padding: 5px;}
+
 .test{
-    color: cornflowerblue;
-    cursor: url(images/emoji.png),auto;}
+    color:blueviolet;
+    cursor: url(images/imoji.jpg),auto;  
+}
+        
+        
+ .container{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+ }   
+    
+    
+    .box{
+        padding: 20px;
+        background-color: aqua;
+        width: 120px;
+        
+    }
+    .box2{
+        background-color:rgb(241, 250, 227);
+    }
+    .box3{
+        background-color: darkslateblue;
+    }
