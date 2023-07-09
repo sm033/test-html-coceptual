@@ -35,7 +35,7 @@
     justify-content: space-around;
     height: 100vh; 
     align-items: center;
-    /*border: 2px solid gray;*/
+    border: 2px solid gray;
     color: white; 
     background-image: url("./images/background.png"),
     linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
@@ -64,4 +64,56 @@
  }
  .btn:hover{
     color: rgb(85, 85, 85);
+ }
+ .about-container{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+ }
+ .about-title{
+    text-align: center; 
+    padding-top: 20px;
+
+ }
+ 
+ .lorem{
+    margin-top: 7px;
+    margin-bottom: 18px;
+ }
+ .box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+ }
+ .icon{
+    width: 70px;
+ }
+ .box-btn{
+    background-color: gray;
+    margin-top: 10px;
+ }
+ .box-title{
+    padding: 10px;
+
+ }
+ .box-description{
+    padding: 5px;
+ }
+
+ .service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url("/images/background.png"),
+    linear-gradient(45deg, black,rgb(50, 49, 49) );
+    background-size: cover;
+    background-repeat: no-repeat;
  }
