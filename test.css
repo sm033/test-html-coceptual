@@ -1,0 +1,7 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+.test{
+    color: cornflowerblue;
+    cursor: url(images/emoji.png),auto;}
